@@ -1,11 +1,5 @@
 import re 
 
-MAXIMUM_NUMBER_OF_CUBES = {
-    "red": 12, 
-    "green": 13,
-    "blue" : 14
-}
-
 try: 
     with open("./input.txt") as f:
         lines = f.readlines()
